@@ -57,8 +57,8 @@ header {
   background-image: url('../Fotograflar/arkaplan.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: 36%;
+  /*background-attachment: fixed;*/
   display: flex;
   align-items: center;
   justify-content: center;

@@ -129,7 +129,7 @@ img {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .article-card:hover {
@@ -254,4 +254,25 @@ footer {
   .social-links {
     justify-content: center;
   }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #555;
 }
